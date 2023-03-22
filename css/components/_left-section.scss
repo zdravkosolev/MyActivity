@@ -1,0 +1,128 @@
+@use "../abstracts/variables" as var;
+@use "../abstracts/mixins" as mix;
+@use "sass:math";
+
+.left-section {
+    position: fixed;
+    @extend %section;
+    background-color: var.$background-color-base;
+    color: var.$text-color-base;
+    margin: 0;
+    width: 20%;
+    
+    @include mix.tablet-styles{
+    width: 100%;
+    padding: 0%;
+    top: 0;
+    
+    nav  {
+        display: none;
+    }
+    .footer-properties {
+        display: none;
+    }
+}
+    
+   @include mix.mobile-l-styles {
+    width: 100%;
+    padding: 0%;
+    top: 0;
+
+    nav {
+        display: none;
+    }
+    .footer-properties {
+        display: none;
+    }
+   }
+    
+    
+   
+    .inner {
+        width: 100%;
+        margin-left: 0%;
+        padding: 2rem;
+
+        @include mix.tablet-styles {
+            padding: 2rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        @include mix.mobile-l-styles{
+            padding: 2rem 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        img {
+            margin: 0%;
+            @include mix.tablet-styles{
+                width: 60%;
+            }
+            @include mix.mobile-l-styles{
+                width: 60%;
+            }
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+    
+            li {
+                list-style-type: none;
+                padding-top: 0.5rem;
+
+                a {
+                    color: var.$text-color-base;
+                    opacity: 0.6;
+                    text-decoration: none;
+                    font-size: (var.$gutter-base,2);
+                  }                
+            }
+            li:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .burger {
+        display: none;
+        padding: 0%;
+
+        @include mix.tablet-styles{
+            display: block;
+            border: 1px solid #000;
+            padding-left: 0.2rem;
+            padding-right: 0.2rem;
+        }
+
+        @include mix.mobile-l-styles {
+            display: block;
+            border: 1px solid #000;
+            padding-left: 0.2rem;
+            padding-right: 0.2rem;              
+        }        
+    }
+        
+    .footer-properties {
+        font-size: math.div(var.$gutter-base, 2.5);
+        padding-top: 10rem;
+
+        a {
+            font-weight: var.$font-weight-bold;
+            color: var.$text-color-base;
+            text-decoration: none;
+        }
+
+        @include mix.tablet-styles{
+            display: none;
+        }
+
+        @include mix.mobile-l-styles{
+            display: none;
+        }
+    }
+}

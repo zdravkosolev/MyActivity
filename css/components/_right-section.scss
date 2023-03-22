@@ -1,0 +1,95 @@
+@use "../abstracts/variables" as var;
+@use "../abstracts/mixins" as mix;
+@use "sass:math";
+
+.right-section {
+    @extend %wrap;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0%;
+    width: 80%;
+
+    @include mix.tablet-styles{
+        width: 100%;
+        margin-top: 85px;
+        padding: 0%;
+    }
+
+    @include mix.mobile-l-styles {
+        width: 100%;
+        margin-top: 85px;
+        padding: 0%;
+        flex-direction: column;       
+
+        .image {
+            min-width: 100%;
+        }
+
+        .image-overlay {
+            position: absolute;
+            flex-direction: column;
+        }
+    }
+    
+    
+
+    .image {
+        width: 33.333%;
+        position: relative;
+
+        @include mix.tablet-styles{
+            width: 50%;
+        }
+
+        .image__img {
+            display: block;
+            width: 100%;
+        }
+
+        .image-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: var.$background-color-base;
+            opacity: 0;
+            color: var.$text-color-base;
+            font-weight: var.$font-weight-bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .image-text {
+                color: var.$text-color-base;
+                opacity: 0.6;
+                width: 80%;
+                font-size: math.div(var.$gutter-base, 2);
+                border-top: 1px solid black;
+                border-bottom: 1px solid black;
+                text-align: center;
+
+                .image-description {
+                    color: var.$text-color-base;
+                    margin: 0 auto;
+                    padding-top: 1rem;
+                    padding-bottom: 1rem;           
+                }              
+            }
+        }
+
+        .image-overlay:hover {
+            opacity: 1;
+            transition: opacity 0.25s;
+            cursor: pointer;
+        }
+        
+       a {
+        text-decoration: none;
+       }       
+    }
+}
+
+
+
+
