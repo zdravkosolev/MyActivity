@@ -1,0 +1,230 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .navbar {
+    background-color: #343939;
+  }
+  .navbar a {
+    color: white;
+  }
+  .navbar .navbar-brand {
+    text-transform: uppercase;
+  }
+  .navbar .nav-link {
+    color: #dddd;
+  }
+  .navbar .nav-link:hover,
+  .navbar .nav-link.active {
+    color: white;
+  }
+  .banner-container {
+    height: calc(100vh - 56px);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("./images/home.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner-content {
+    width: 75%;
+    height: 350px;
+    display: flex;
+    gap: 20px;
+  }
+  .banner-left {
+    width: 65%;
+    color: white;
+  }
+  .banner-left h1 span {
+    color: red;
+  }
+  .banner-left .list-container {
+    padding: 0 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .banner-left .list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .banner-left .list p {
+    margin: 0;
+  }
+  .banner-left .check-box {
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .fa-check {
+    color: blue;
+    font-size: 25px;
+  }
+  .banner-right {
+    width: 34%;
+    height: 100%;
+    background-color: #4900d5;
+    padding: 20px 12px;
+  }
+  .banner-right .title,
+  .sub-title {
+    color: white;
+    text-align: center;
+  }
+  .banner-right input {
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    outline: 0;
+    border: 0;
+  }
+  .banner-right button {
+    width: 100%;
+    padding: 5px 0;
+    border: 1px solid white;
+    outline: 0;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+  }
+  .banner-right button:hover {
+    background-color: white;
+    color: black;
+  }
+  .explore-section .explore-heading,
+  .create-section .create-heading,
+  .share-section .share-heading {
+    width: 100%;
+    height: 177px;
+    background-color: #414747;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .create-section .create-heading,
+  .share-section .share-heading {
+    background-color: #4900d5;
+  }
+  .explore-section .explore-heading .desc,
+  .create-heading .desc,
+  .create-heading .desc {
+    font-size: 14px;
+  }
+  .explore-section .explore-heading button,
+  .create-heading button,
+  .share-heading button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  .explore-heading button:hover,
+  .create-heading button:hover,
+  .share-heading button:hover {
+    background-color: white;
+    color: black;
+  }
+  .explore-content .desc,
+  .create-content .desc,
+  .share-content .desc {
+    font-size: 14px;
+  }
+  .explore-content .list-container,
+  .create-content .list-container,
+  .share-content .list-container {
+    padding: 0 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .explore-content .list,
+  .create-content .list,
+  .share-content .list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .explore-content .list p,
+  .create-content .list p,
+  .share-content .list p {
+    margin: 0;
+    font-size: 14px;
+  }
+  .explore-content .check-box,
+  .create-content .check-box,
+  .share-content .check-box {
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    background-color: black;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .create-content .check-box {
+    background-color: white;
+  }
+  .create-content .fa-check {
+    font-size: 18px;
+  }
+  .explore-content .fa-check,
+  .share-content .fa-check {
+    color: white;
+    font-size: 18px;
+  }
+  .fa-check {
+    color: blue;
+    font-size: 25px;
+  }
+  .create-content {
+    background-color: #414747;
+    color: white;
+  }
+  footer {
+    background-color: #343939;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body {
+    position: relative;
+  }
+  .navbar-toggler-icon {
+    background-color: red;
+    color: white !important;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .banner-content {
+      width: 90%;
+    }
+    .banner-right {
+      width: 100%;
+    }
+    .explore-section .explore-heading,
+    .create-section .create-heading,
+    .share-section .share-heading {
+      height: auto;
+      padding: 20px 0;
+    }
+  }
