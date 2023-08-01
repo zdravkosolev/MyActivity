@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+
+.container-fluid {
+    background-image: url(./images/img.jpeg);
+    background-size: cover;
+    background-position: center;
+   height: 100vh;
+   margin: 0;
+   position: relative;
+   padding-left: 0%;
+   padding-right: 0%;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    margin: 0;
+}
+
+.paragraph {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 60px;
+    font-weight: bold;
+}
+
+.keyboard {
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    right: 0%;
+    top: auto;
+    height: 50vh;
+    margin: 0%;
+    background-color: rgba(255, 255, 255, 0.08);
+    padding-top: 10px;
+    
+    
+}
+
+.key {
+    height: 50px;
+    width: 120px;
+    border: 3px solid black;
+    background-color:rgb(38, 45, 48) ;
+    box-shadow: 3px 3px rgb(78, 78, 78) ;
+    color: white;
+    margin-left: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+}
+.key:hover{
+    background-color: black;
+}
+
+.head{
+   margin-top: 60px;
+   margin-bottom: 40px;
+   flex-direction: column;
+}
+
+.row {
+    justify-content: center;
+    margin: 0px;
+}
+.space {
+    width: 370px;
+}
