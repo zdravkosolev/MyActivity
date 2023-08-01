@@ -1,0 +1,79 @@
+.grid{
+    background-color: white;
+    color: black;
+    margin: 0px;
+    padding: 10px;
+}
+h1, h2, h3, p{
+    margin: 0px;
+    padding-top: 15px;
+    color: black;
+}
+h2, h3{
+    font-size: 1rem;
+}
+h1{
+    font-size: 2rem !important;
+}
+.asideContainer{
+    width: 20%;
+    padding: 15px;
+}
+.filterEl{
+    cursor: pointer;
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 11px;
+    font-weight: 600;
+}
+.span{
+    margin-left: 10px;
+    font-size: 15px;
+}
+.borderBottom{
+    border-bottom: 2px solid grey ;
+}
+.paddingBottom{
+    padding-bottom: 15px;
+}
+.textUppercase{
+    text-transform: uppercase;
+}
+.pointer{
+    cursor: pointer;
+}
+.activeNav{
+    color: yellow;
+}
+.activeSpan{
+    background-color: yellow;
+    color: white;
+    padding: 3px 10px;
+    border: 1px solid yellow;
+    border-radius: 45%;
+    font-size: 12px;
+}
+.amountSpan{
+    background-color: grey;
+    color: white;
+    padding: 3px 10px;
+    border: 1px solid grey;
+    border-radius: 45%;
+    font-size: 12px;
+}
+
+.main {
+    background-color: white;
+    margin: 0px;
+    display: flex;
+}
+.cardContainer {
+    width: 80%;
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  }
+  

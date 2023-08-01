@@ -1,0 +1,35 @@
+
+  .card {
+    width: 100%;
+    height: 100%;
+    background-color: #ca9c04;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  .card:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: black;
+  }
+  
+  .cardInfo{
+    color: black;
+    padding: 15px;
+  }
+
+  .imgProperties{
+    width: 80%;
+  transition: transform 0.3s ease; 
+    align-self: center;
+  } 
+  .card:hover .imgProperties{
+    transform: scale(1.2);
+  }
+
+  .bikeDivProp{
+    background-color: white;
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

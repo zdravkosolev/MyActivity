@@ -1,0 +1,29 @@
+.footer{
+    background-color: rgb(215, 209, 209);
+    padding: 20px 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer h3{
+    color: black;
+}
+
+.paragraphsProps p{
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+}
+.paragraphsProps p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.footerIcons{
+    color: #ca9c04;
+    margin-right: 5px;
+    font-size: 23px;
+}
+.footerIcons:hover {
+    cursor: pointer;
+    color: #836502;
+}

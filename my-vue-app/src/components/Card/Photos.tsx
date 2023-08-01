@@ -1,0 +1,22 @@
+// export const Photos = [
+// require("../Images/img/1.png"),
+// require("../Images/img/2.png"),
+// require("../Images/img/3.png"),
+// require("../Images/img/4.png"),
+// require("../Images/img/5.png"),
+// require("../Images/img/6.png"),
+// require("../Images/img/7.png"),
+// require("../Images/img/8.png"),
+// require("../Images/img/9.png"),
+// require("../Images/img/10.png"),
+// require("../Images/img/11.png"),
+// require("../Images/img/12.png"),
+// require("../Images/img/13.png"),
+// require("../Images/img/14.png"),
+// require("../Images/img/15.png"),
+// require("../Images/img/16.png"),
+// require("../Images/img/17.png"),
+// require("../Images/img/18.png"),
+// require("../Images/img/19.png"),
+// require("../Images/img/20.png")
+// ];
