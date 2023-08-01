@@ -1,1 +1,1 @@
-In this repository you can see my whole work using HTML, CSS, GIT, SASS, BOOTSTRAP, JAVASCRIPT.
+In this challenge I used jQuery to make Car racing game, where two cars (as images gifs) start to race each other. By using math random properties they start to race and every time there are different time endings for the race.
