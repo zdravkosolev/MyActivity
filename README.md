@@ -1,1 +1,1 @@
-In this repository you can see my whole work using HTML, CSS, GIT, SASS, BOOTSTRAP, JAVASCRIPT.
+In this exercise we have to make a static array in js with names, boolean and number. From the prompt user have to pick a name and if the name exist to show in table the name with the boolean(if he vote or not), and the number from array. 
