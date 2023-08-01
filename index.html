@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge-12-JS</title>
+    
+</head>
+<body>
+    
+    <ul id="book-title"></ul>
+
+    <ul id="book-list"></ul>
+
+
+    <table>
+        <thead>
+          <tr style="font-size: 20px;">
+            <th>Title</th>
+            <th>Author</th>
+            <th>Max Pages</th>
+            <th>On Page</th>
+            <th>Progress</th>
+          </tr>
+        </thead>
+        <tbody id="book-table-body">
+        </tbody>
+      </table>
+
+      <h3>Add a book to the list:</h3>
+
+      <form id="add-book-form"> 
+        <label for="title-input"></label>
+        <input style="height: 20px;" type="text" id="title-input" placeholder="Book Title:" required>
+      
+        <label for="author-input"></label>
+        <input style="height: 20px;" type="text" id="author-input" placeholder="Book Author:" required>
+
+        <label for="on-page-input"></label>
+        <input style="height: 20px;" type="number" id="on-page-input" placeholder="Current Page On:" required>
+      
+        <label for="max-pages-input"></label>
+        <input style="height: 20px;" type="number" id="max-pages-input" placeholder="Book Max Pages:" required>
+      
+        
+      
+        <button style="padding: 3px  10px ;" type="submit">Add to list</button>
+      </form>
+
+
+<script src="script.js"></script>
+</body>
+</html>
