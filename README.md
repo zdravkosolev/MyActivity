@@ -1,1 +1,3 @@
-In this repository you can see my whole work using HTML, CSS, GIT, SASS, BOOTSTRAP, JAVASCRIPT.
+First of all i worked on exercise 1 which I have to make a prompt window where the user can enter a number, and in the Paragraph and in the console it should give back the information about if the number is odd or even.
+on exercise 2 we have to print in the paragraph and in console all the numbers from 10 to 100 that are even and divisible by 3.
+on exercise 3 we have to make a promp window where the user can enter 3 number. In paragraph and in console we get back whick of the 3 numbers are smaller and if it is prime or nor, and which of the 3 numbers is largest and if it is prime or not.
