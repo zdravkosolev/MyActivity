@@ -1,1 +1,4 @@
-In this repository you can see my whole work using HTML, CSS, GIT, SASS, BOOTSTRAP, JAVASCRIPT.
+For all the exercisess I made different HTML and JavaScript documents.
+First of all I make the exercise where I have to create an object with the help of a constructor in which will be stored basic employee data and instance 3 new objects, enter the data for each employee and then print a list. 
+For the second exercises I made a new cube object. In it I write methods for calculating area and perimeter where the user has to enter the size of side from the prompt window.
+For the third exercises the user has to enter all the information like From, To, Subject and Message from the prompt window. After the user has entered all the information, the user is informed for all the entered information via alert message window. After clicking the OK button on the alert window user will see all the information at the fields form for email on the page.
