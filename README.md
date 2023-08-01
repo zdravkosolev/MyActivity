@@ -1,1 +1,1 @@
-In this repository you can see my whole work using HTML, CSS, GIT, SASS, BOOTSTRAP, JAVASCRIPT.
+In this React.js exercise we learned how to fetch data from db.json, run split terminal and server, and the basic use of the components in React.js.

@@ -1,0 +1,129 @@
+.banner-img{
+    background-image: url(https://picsum.photos/600);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 600px;
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   justify-content: center;
+   @media (max-width: 426px) {
+    height: 100vh;
+   }
+  }
+  .banner-img {
+    p{
+        margin-left: 90px;
+        @media (max-width: 768px) {margin-left: 30px;}
+      }
+      h1{
+        margin-left: 90px;
+        @media (max-width: 768px) {margin-left: 30px;}
+      }
+      button{
+        margin-left: 90px;
+        @media (max-width: 426px) {width: 85%;}
+        @media (max-width:768px) { margin-left: 30px;}
+      }
+  }
+.banner-img {
+    p{
+        color: white;
+        margin-bottom: 20px;
+    }
+    h1{
+        color: white;
+        margin-bottom: 20px;
+    }
+}
+.banner-img {
+    p{
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 400; 
+    }
+}
+.banner-img {
+    button {
+        text-transform: uppercase;
+        color: black;
+        font-size: 12px;
+        font-weight: 300;
+        padding: 5px 20px;
+        border: 1px solid white;
+        @media (max-width: 425px) {
+           min-width: 300px;
+        }
+    }
+}
+
+.details-block-section {
+    padding: 30px;
+    display: flex;
+    @media (max-width: 426px) {
+        display: block;
+        padding: 10px;
+    }
+}
+.details-block-div {
+   width: 60%;
+   padding: 30px;
+   padding-left: 60px;
+   @media (max-width: 426px){
+    width: 100%;
+    padding: 5px;
+   }}
+.about {
+    color: red;
+    text-transform: uppercase;
+}
+.block-image{
+    border-radius: 50%;
+   width: 400px;
+    align-self: center;
+}
+.details-block-div-2{
+    margin: 0 auto;
+    @media (max-width:768px) {
+        padding-top: 50px;;
+       }}
+.places-container{
+    display: flex;
+    flex-wrap: wrap;
+    @media (max-width: 426px){
+        display: block;
+    }}
+.place-div{
+    flex-basis: 33.333%;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    @media (max-width:768px){
+        flex-basis: 50%;
+    }
+}
+
+.footer{
+    background-color: rgb(215, 213, 213);
+    padding: 30px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer{
+    a {
+        text-decoration: none;
+        color: rgb(175, 45, 45);
+        padding-top: 10px;
+    }
+}
+
+
